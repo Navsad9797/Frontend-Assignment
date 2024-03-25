@@ -1,0 +1,334 @@
+1:- What are the benifits of using css?
+Ans:- 1 css on of the most benifits of css is its ability to separate content from presentation.
+
+      2 This separation enhances the maintainability of web pages as changes to the styling can be made without altering the underlying html structure.
+
+      3 css enables consistent styling across an entire website or multiple pages
+
+      4 This is one of the many advantage of using css
+
+      5 css you can crate responsive web designs that adapt to diffrent screen sizes and devices this is another main one among advantage of cascading style sheet.
+
+      6 Modifying the appearance of a website is more straightforward with css
+
+      7 External css files can be linked to multiple web pages,making it easy to apply consistent styling across an entire website.
+--------------------------------------------------------------------------------------------------------------------------
+      
+2:- What are the disadvantages of CSS?
+Ans:-  1) Browser Compatibility
+       2) Learning Curve
+       3) Limited Layout Control
+       4) Lack of Security
+       5) Performance impact
+       6) Overriding Styles
+--------------------------------------------------------------------------------------------------------------------------
+
+3:- What is the difference between CSS2 and CSS3 ?
+Ans:-   
+                         CSS2                                                                             
+css splits up different sections of the code into modules
+
+css2 only web safe fonts can be used
+
+css2 the concept of simple selectors were present
+
+css2 Doesn't support the Border-Box property
+
+                         CSS3
+css ad html were put into a single file,there was no concept of modules before
+
+css3 special fonts can be used such as those in google fonts and typecast
+
+css3 the selectors were called as a sequence of simple selectors.com
+
+css3 support the Border-Box property
+
+--------------------------------------------------------------------------------------------------------------------------
+
+4:- Name a few CSS style components
+Ans:- 1) Inline 
+      2) External CSS
+      3) External stylesheet
+      4) Internal
+      5) Selector
+--------------------------------------------------------------------------------------------------------------------------
+
+5:- What do you understand by CSS opacity ?
+Ans:- Opacity css property sets the opacity of element.Opacity is the content behind element is hidden and is the transparency.
+
+opacity:0.33;
+
+--------------------------------------------------------------------------------------------------------------------------
+
+6:- How can the background color of an element be changed ?
+Ams:- background color in html use the css background-color property.
+
+Example Of Background-color change
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        .p {
+            /* background-color: red;   change background-color   */
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="p">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi numquam nobis quidem inventore nam rerum,
+            explicabo alias expedita provident culpa consequatur dolore natus nesciunt, dolorem excepturi dolor nihil,
+            aspernatur dignissimos.</p>
+    </div>
+</body>
+
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------
+
+7:-How can image repetition of the backup be controlled?
+Ans:- Controlled repetition image background-repeat property
+
+Example of Background Image controlled
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Repeat</title>
+    <style>
+        body {
+            background-image: url(https://images.pexels.com/photos/1687944/pexels-photo-1687944.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-repeat: no-repeat;
+        }
+
+        p {
+            color: red;
+            font-size: 5.8rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------
+
+8:- What is the use of the background-position property ?
+Ans:-Background poistion use of the property sets the starting position of a background image.background image by default placed at the top-left corner of element and repeated both vertically and horizontally.
+
+            background-position:left;
+            background-position:top;
+            background-position:center;
+            background-position:25% 75%;
+            background-position:right 35% bottom 45%;
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Background Repeat</title>
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/1687944/pexels-photo-1687944.jpeg?auto=compress&cs=tinysrgb&w=600");
+            padding: 300px;
+            background-repeat: no-repeat;
+            background-position: right 35% bottom 45%;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------
+
+9:- Which property controls the image scroll in the background ?
+Ans:- background image scroll property use to the background-attachment property
+
+Example of scroll background
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Background Scroll</title>
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/1687944/pexels-photo-1687944.jpeg?auto=compress&cs=tinysrgb&w=600");
+            background-repeat: repeat-y;
+            /* background-attachment: fixed; */
+            background-attachment: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>The background-attachment property</h3>
+
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+    <p>the Background-images is fixed.try to scroll down the page</p>
+
+</body>
+
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------
+
+10:- Why should background and color be used as separate properties?
+Ans:-The background property is a complex property in css,and if it is combined with color,the complexity will further increase.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+11:- How to center block elements using CSSI ?
+Ans:- Center element to horizontally center a block element use of margin:auto 
+
+Example 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Margin center</title>
+    <style>
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 5px solid salmon;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">Center Align Elements</h2>
+    <div class="center">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+
+</html>
+
+------------------------------------------------------------------------------------------------------------------------
+
+12:- How to maintain the css specifications?
+Ans:- the css specifications are maintain by the (W3C) WorldWide Web Consortium.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+13:- what are the ways to integrate CSS as a web page?
+Ans:- css may be added to html three different ways.
+inline css  
+internal css 
+external stylesheet
+
+--------------------------------------------------------------------------------------------------------------------------
+
+14:- what is embedded style sheets?
+Ans:- embeddes style sheet is declared within the </head> element of an XHTML documnet.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+15:- what are the external style sheets?
+Ans:- External style sheet is a separate css file that can be accessed by creating a link within the head section of the webpage.
+--------------------------------------------------------------------------------------------------------------------------
+
+16:- what are the advantages and disadvantages of using external style sheet?
+Ans:- Advantage of css 
+      it is easier to update whole site
+      Better Website Speed
+      Easier to maintain
+      consistent Design
+    ------------------------------------------
+      Disadvantages
+
+      cross-browser issues
+      security issues
+      extra work for developers
+    ------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+
+17:-what is the meaning of the css selector?
+Ans:- css selector is the first part of css rule. pattern of elements and other terms that tell the browser which html elements should be selected to have the css property values inside the rule applied to them
+
+-------------------------------------------------------------------------------------------------------------------------
+
+18:- What are the media types allowed by css?
+Ans:- media allowed by css types
+    
+        All   :-  Used for all media type devices (default)
+
+        print  :- Used for printers
+
+        screen :- Used for smartphones,computer screen , tablets, etc..
+
+        speech :- Used for screen readers.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+19:- What is rule set?
+Ans:- rule of set a selector list and an associated declarations block,together,are called a ruleset or often a rule.
+
+--------------------------------------------------------------------------------------------------------------------------
