@@ -46,11 +46,11 @@ css3 support the Border-Box property
 --------------------------------------------------------------------------------------------------------------------------
 
 4:- Name a few CSS style components
-Ans:- 1) Inline 
-      2) External CSS
-      3) External stylesheet
-      4) Internal
-      5) Selector
+Ans:- The three parts to a css style :selector,property and value
+
+selector is the html tag you are formating (h1) selector id,class name.
+property is the atttribute you want to change font,color,background-color,border,textalign etc..
+values each property is set ot a value value are separated by a colon(:).
 --------------------------------------------------------------------------------------------------------------------------
 
 5:- What do you understand by CSS opacity ?
@@ -93,8 +93,9 @@ Example Of Background-color change
 --------------------------------------------------------------------------------------------------------------------------
 
 7:-How can image repetition of the backup be controlled?
-Ans:- Controlled repetition image background-repeat property
+Ans:- Controlled repetition image background-repeat property the background-repeat property in css is used to repeat the background image both horizontally and vertically. it also decides whether the background image will be repeated or not
 
+background-repeat:repeat|repeat-x|repeat-y|no-repeat
 Example of Background Image controlled
 
 <!DOCTYPE html>
@@ -236,7 +237,9 @@ Example of scroll background
 --------------------------------------------------------------------------------------------------------------------------
 
 10:- Why should background and color be used as separate properties?
-Ans:-The background property is a complex property in css,and if it is combined with color,the complexity will further increase.
+Ans:-There are two reasons behind this: it enhances the legibility of style sheets.the background property is a complex property in css,and if it is combined with color,the complexity will further increase.
+
+color is an inherited property while the background is not.so this can make confusion further.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -273,25 +276,54 @@ Example
 ------------------------------------------------------------------------------------------------------------------------
 
 12:- How to maintain the css specifications?
-Ans:- the css specifications are maintain by the (W3C) WorldWide Web Consortium.
+Ans:- The css specifications are maintained by the world wide web consoritum(W3C) .Even though every browser supports css,there are many inconsistencies in the supported specification version.some brosers even have their own implementation of the specification and have proprietary prefixes.
+
 
 -------------------------------------------------------------------------------------------------------------------------
 
 13:- what are the ways to integrate CSS as a web page?
-Ans:- css may be added to html three different ways.
-inline css  
-internal css 
-external stylesheet
+Ans:- css may be added to html in three diffrent ways.to style a single html element on the page,use inline css in astyle attribute.by adding css to the head section of our html document we can embed an internal stylesheet.we can also connect to an external stylesheet that separates our css from our html
 
 --------------------------------------------------------------------------------------------------------------------------
 
 14:- what is embedded style sheets?
-Ans:- embeddes style sheet is declared within the </head> element of an XHTML documnet.
+Ans:- embeddes style sheet in css allows you to define styles for entire html document in one place. it s way to encapsulate your styling rules within the document itself.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+    <!-- Embedded stylesheet -->
+    <style>
+        h2{
+            font-size:1.5rem;
+            color:red;
+            text-align:center;
+        }
+
+        p{
+            font-variant:italic;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h3>Welcome To Html</h3>
+    <p>This is document is uisng an embedded stylesheet</p>
+    <p>This is a paragraph</p>
+
+</body>
+</html>
+    
+
+
 
 --------------------------------------------------------------------------------------------------------------------------
 
 15:- what are the external style sheets?
-Ans:- External style sheet is a separate css file that can be accessed by creating a link within the head section of the webpage.
+Ans:- External style sheet is a separate css file that can be accessed by creating a link within the head section of the webpage. multiple webpages can use the same link to access the stylesheet.the link to an external style sheet is placed within the head section of the page.
 --------------------------------------------------------------------------------------------------------------------------
 
 16:- what are the advantages and disadvantages of using external style sheet?
@@ -311,7 +343,8 @@ Ans:- Advantage of css
 --------------------------------------------------------------------------------------------------------------------------
 
 17:-what is the meaning of the css selector?
-Ans:- css selector is the first part of css rule. pattern of elements and other terms that tell the browser which html elements should be selected to have the css property values inside the rule applied to them
+Ans:- css selector is a are used to select the content you want to style.selectors are the part of css rule set.
+css selectors sellect html elements according to its id,class,type,attribute etc.
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -329,6 +362,22 @@ Ans:- media allowed by css types
 --------------------------------------------------------------------------------------------------------------------------
 
 19:- What is rule set?
-Ans:- rule of set a selector list and an associated declarations block,together,are called a ruleset or often a rule.
+Ans:- css ruleset is various affirmations to various pieces or element of the document.the objective is to apply a bunch of properties for certain distinct qualities to a solitary or a particular components in the connected html page
+
+example of 
+
+
+    h1{
+        color:blue;
+    }
+
+    h1 -> is a selector
+
+    color -> is a property
+
+    Blue -> is Value
+
+
+    
 
 --------------------------------------------------------------------------------------------------------------------------
