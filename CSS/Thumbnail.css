@@ -61,7 +61,7 @@ p {
 }
 
 .btn1:hover {
-    background-color: aqua;
+    /* background-color: aqua; */
     color: white;
 }
 

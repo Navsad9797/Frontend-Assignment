@@ -4,30 +4,44 @@
     box-sizing: border-box;
 }
 
-.clickpath {
-    height: 550px;
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.main_content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+
+
+}
+
+.menubar {
+    height: 500px;
+    width: 100%;
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+    background-position: center;
+    border: 2px solid red;
+    color: rgb(241, 183, 183);
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 50% 100%, 0 87%);
     background-image: url(https://images.pexels.com/photos/20116329/pexels-photo-20116329/free-photo-of-postal-altiplano-chileno.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
 .logo {
     width: 80px;
-    height: 40px;
-    /* font-size: 2rem; */
-    font-size: 31px;
+    height: 39px;
+    font-size: 2rem;
     background-color: white;
-    /* color: black; */
-    border: 2px solid white;
-}
-
-.logo:hover {
-    cursor: pointer;
+    color: black;
+    border: 1px solid red;
 }
 
 span {
-    background-color: rgb(204, 153, 153);
-    /* width: 90px; */
+    background-color: cadetblue;
+    width: 90px;
     color: white;
 }
 
@@ -36,126 +50,127 @@ span {
     list-style: none;
     padding-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-
 }
 
-.home:hover {
-    border-bottom: 3px solid red;
+.ul:hover {
     cursor: pointer;
 }
 
+.home {
+    color: rgb(233, 111, 45);
+}
+
 .para {
-    width: 500px;
-    margin: 100px 0px 0px 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
     text-align: center;
+    margin-top: 100px;
+
 }
 
-h3 {
+.welcom {
+    font-weight: 900;
+    font-size: 2.5rem;
     color: white;
-}
-
-.wcm {
-    font-weight: 800;
-    font-size: 50px;
-    color: white;
-    margin-left: 50px;
 }
 
 hr {
     width: 50px;
 }
 
-.para {
-    margin-left: 210px;
+.parag {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
     text-align: center;
-    color: white;
 }
 
-.fa-arrow-left {
+.icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-angle-left {
     height: 40px;
     width: 40px;
     border: 1px solid red;
     padding: 12px;
     background-color: aliceblue;
-    margin-left: 30px;
-
 }
 
-.fa-arrow-left:hover {
-    background-color: red;
-    color: white;
-}
 
-.fa-arrow-right {
+
+.fa-angle-right {
     height: 40px;
     width: 40px;
-    margin-left: 88%;
-    border: 1px solid;
+    border: 1px solid red;
     padding: 12px;
-    /* background-color: rgb(17, 204, 98); */
     background-color: red;
-
-
 }
 
-.fa-arrow-right:hover {
-    color: white;
+.fa-angle-right:hover {
+    color: whitesmoke;
 }
 
 .button {
-    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
 }
 
-.button1 {
-    background-color: red;
-    border: 2px solid red;
-    height: 30PX;
+.btnF {
+    background-color: brown;
+    border: 3px solid red;
+    height: 25PX;
     width: 150px;
-    color: white;
+    color: aliceblue;
 }
 
-.button2 {
-    background-color: transparent;
-    border: 1px solid red;
-    height: 30px;
+.btnS {
+    background-color: rgb(236, 222, 222);
+    border: 3px solid red;
+    height: 25px;
     width: 150px;
 }
 
 .button2:hover {
-    background-color: red;
-    color: white;
+    color: red;
 }
 
-.ancor {
-    height: 38px;
-    width: 38px;
-    border: 2px solid red;
+.icon2 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
     border-radius: 50px;
-    padding: 8px;
+    padding: 10px;
     background-color: rgba(219, 227, 235, 0.993);
-    margin-left: 48%;
+    margin-left: 49%;
+    margin-top: -25px;
+    z-index: 1;
 }
 
 .lastpage {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     margin-top: 60px;
     text-align: center;
-    margin-left: 150px;
-}
-
-h3 {
-    color: black;
-    font-style: italic;
-}
-
-h3:hover {
-    border-bottom: 3px solid red;
-    transition: all 350ms;
 }
 
 .fa-infinity {
@@ -165,7 +180,7 @@ h3:hover {
     height: 40px;
     width: 50px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
@@ -176,8 +191,7 @@ h3:hover {
     height: 40px;
     width: 50px;
     padding: 10px;
-    border-radius: 10px;
-
+    border-radius: 5px;
 }
 
 .fa-lightbulb {
@@ -187,8 +201,7 @@ h3:hover {
     height: 40px;
     width: 50px;
     padding: 10px;
-    border-radius: 10px;
-
+    border-radius: 5px;
 }
 
 .fa-window-restore {
@@ -198,8 +211,7 @@ h3:hover {
     height: 40px;
     width: 50px;
     padding: 10px;
-    border-radius: 10px;
-
+    border-radius: 5px;
 }
 
 .lastp {

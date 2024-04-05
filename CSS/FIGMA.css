@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.main_conent {
+.content {
     height: 100%;
     width: 100%;
     background-color: rgba(245, 240, 235, 0.349);
@@ -43,7 +43,7 @@
 }
 
 
-#get_started {
+#started {
     background-color: rgb(188, 215, 216);
     color: rgb(88, 130, 209);
     width: 160px;
@@ -77,7 +77,13 @@
     opacity: 1;
 }
 
+#pricing {
+    opacity: 1;
+}
 
+/* #login {
+    opacity: 1;
+} */
 
 
 
@@ -91,9 +97,9 @@
     opacity: 0;
 }
 
-.savevalu {
+.save_valu {
     width: 50%;
-    height: 60px;
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 30%;
@@ -102,8 +108,8 @@
 }
 
 .save {
-    height: 50px;
-    width: 30%;
+    height: 40px;
+    width: 40%;
     font-size: 1.5rem;
     text-align: center;
     border-radius: 20px;
@@ -155,13 +161,14 @@
 
 }
 
+
+
 .yourcompany {
     height: 50px;
-    /* width: 310px; */
-    font-size: 1.5rem;
+    font-size: 35px;
     padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 
 
 }
@@ -176,43 +183,35 @@
 
 }
 
-.graf1 {
-    height: 500px;
+.tryit:hover {
+    cursor: pointer;
+}
+
+.Graph1 {
+    height: 650px;
     width: 70%;
-    border: 1px solid rgb(241, 219, 219);
-    margin-bottom: 100px;
-    margin-top: 250px;
-    margin-left: 15%;
+    margin-left: 16%;
 }
 
-.graf1:hover {
-    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
-    border: 1px solid aqua;
-}
-
-.site {
+.TCompany {
+    /* margin-left: 18%; */
+    /* margin-right: 15%; */
     text-align: center;
     font-size: 30px;
 }
 
-.c_logo {
-
+.companylogo {
+    list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    column-gap: 5%;
+    align-content: center;
+    text-decoration: none;
     margin: 30px 0px 100px 0px;
 }
 
-
-
-.slack {
-    opacity: 1;
-}
-
-.c_logo:hover {
-    color: blue;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+.companylogo:hover {
+    cursor: pointer;
 }
 
 .timeline_team {
@@ -230,7 +229,7 @@
     margin-top: 5%;
 }
 
-.pera {
+.texes {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -239,30 +238,23 @@
     margin-top: 15%;
 }
 
-.survey {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(175, 228, 228);
-    border-left: 10px solid blue;
-    text-align: center;
-    padding: 20px;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.survey-contend {
+    width: 415px;
+    background: #f6f3fc;
+    padding: 28px;
+    border-left: 13px solid #794cff;
 }
 
-.survey:hover {
-    cursor: pointer;
-    color: brown;
-    border-left: 10px solid aqua;
+.survey-contend h2 {
+    font-size: 24px;
+    color: #050505;
 }
 
-hr {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 5%;
+.survey-contend p {
+    font-size: 20px;
+    color: #070707;
 }
+
 
 .resolve {
     height: 100%;
@@ -276,11 +268,6 @@ hr {
     align-items: flex-start;
 }
 
-.resolve:hover {
-    cursor: pointer;
-    color: brown;
-}
-
 .plan {
     height: 100%;
     width: 100%;
@@ -290,11 +277,6 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.plan:hover {
-    cursor: pointer;
-    color: brown;
 }
 
 .easy {
@@ -308,11 +290,6 @@ hr {
     align-items: flex-start;
 }
 
-.easy:hover {
-    cursor: pointer;
-    color: brown;
-}
-
 
 
 
@@ -320,7 +297,7 @@ hr {
     height: 150px;
     width: 100%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 .make_your_work1 {
@@ -447,9 +424,7 @@ hr {
     border: 1px solid rgb(238, 228, 228);
 }
 
-.graf2:hover {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
+
 
 .wework1 {
     font-size: 2.5rem;
@@ -496,44 +471,44 @@ hr {
 }
 
 .user_img1 {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
 }
 
 .user_img2 {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
 }
 
 .user_img3 {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
 }
 
 .footer1 {
     height: 100%;
-    width: 85%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-content: center;
     align-items: center;
     background-color: blueviolet;
     border-radius: 30px;
-    margin-left: 8%;
-    font-size: 1.5rem;
+    margin-left: 5%;
     margin-top: 10px;
     margin-bottom: 100px;
 }
 
 .employees {
-    width: 30%;
+    width: 25%;
     margin-left: 5%;
     display: flex;
     align-items: center;
     color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .icons {
@@ -542,7 +517,7 @@ hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* gap: 30px; */
+
     margin-right: 5%;
 }
 
@@ -565,10 +540,7 @@ hr {
     color: red;
 }
 
-/* .goplay{
-    padding: 10px;
 
-} */
 .getiton {
     font-size: 0.7rem;
     color: rgb(116, 103, 88);
@@ -599,12 +571,7 @@ hr {
 
 }
 
-/* .downapp{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    
-} */
+
 
 .down1 {
     font-size: 0.7rem;
@@ -730,20 +697,22 @@ h3 {
 .footerhr {
     width: 100%;
     color: white;
+
 }
 
 .allright {
     color: rgb(248, 236, 236);
+
 }
 
-.twitter {
+.social {
     color: rgb(240, 228, 228);
-    font-size: 2rem;
+    font-size: 30px;
 
 }
 
 
-/* ****** @media quary ****** */
+
 @media screen and (max-width:900px) {
 
     .header {
@@ -762,7 +731,7 @@ h3 {
 
 
 
-/* ****** @media quary ****** */
+
 @media screen and (max-width:800px) {
     .save {
         opacity: 0;
@@ -835,6 +804,30 @@ h3 {
 
     }
 
+    #get_started {
+        opacity: 0;
+
+    }
+
+    .howit {
+        opacity: 0;
+    }
+
+    .produc {
+        opacity: 0;
+    }
+
+    .resor {
+        opacity: 0;
+    }
+
+    #pricing {
+        opacity: 0;
+    }
+
+    #login {
+        opacity: 0;
+    }
 
     .timeline_team {
         height: 100%;
@@ -912,16 +905,462 @@ h3 {
         align-items: flex-start;
     }
 
+    .make_your_work {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .make_your_work1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    .fa-square-poll-vertical {
+        height: 60px;
+        width: 60px;
+        display: flex;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        font-size: 2rem;
+        background-color: aquamarine;
+        border-radius: 50%;
+        color: red;
+        padding: 15px;
+    }
+
+    .fa-newspaper {
+        height: 60px;
+        width: 60px;
+        font-size: 2rem;
+        background-color: aquamarine;
+        border-radius: 50%;
+        color: red;
+        padding: 14px;
+    }
+
+    .fa-user {
+        height: 60px;
+        width: 60px;
+        font-size: 2rem;
+        background-color: aquamarine;
+        border-radius: 50%;
+        color: red;
+        padding: 15px;
+    }
+
+    .team2 {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .build {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .quickly {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .make_your_work2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .anonymous {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    .fa-message {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        font-size: 2rem;
+        background-color: aquamarine;
+        color: red;
+        padding: 15px;
+
+    }
+
+    .convetsation {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    .fa-code-compare {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        font-size: 2rem;
+        background-color: aquamarine;
+        color: red;
+        padding: 15px;
+
+    }
+
+    .exclusives {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    .fa-dropbox {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        font-size: 2rem;
+        background-color: aquamarine;
+        color: red;
+        padding: 15px;
+
+    }
+
+    .grafs {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        background-color: rgb(212, 237, 238);
+        margin-bottom: 100px;
+
+    }
+
+    .graf2 {
+        height: 100%;
+        width: 100%;
+        border: 1px solid rgb(238, 228, 228);
+
+    }
+
+    .graf2:hover {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    .we_work {
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+
+    }
+
+    .get_started {
+        height: 70px;
+        width: 80%;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 30px;
+        background-color: blueviolet;
+    }
+
+    .customers {
+        height: 150px;
+        width: 45%;
+        text-align: center;
+        font-size: 1.3rem;
+        margin-left: 28%;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+
+    .amazing2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .users {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .user_img1 {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        margin-bottom: 50px;
+    }
+
+    .user_img2 {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .user_img3 {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .footer1 {
+        height: 400px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        background-color: blueviolet;
+        border-radius: 30px;
+        font-size: 1.5rem;
+    }
+
+    .employees {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .icons {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+        /* gap: 30px; */
+
+    }
+
+    .icon_go {
+        height: 90px;
+        width: 40%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-google-play {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+    }
+
+    .goplay {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+
+
+    }
+
+    .getiton {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .googleplay {
+        font-size: 1.5rem;
+    }
+
+    .icon_app {
+        height: 90px;
+        width: 40%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-apple {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+
+    }
+
+    .downapp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+        padding: 5px;
+    }
+
+    .down1 {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .appstore {
+        font-size: 1.5rem;
+    }
 
 
 
 
+    .footer2 {
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(34, 26, 26);
+    }
 
+    .footer_main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .company {
+        color: white;
+        padding-top: 50px;
+    }
 
+    .suport {
+        color: white;
+        padding-top: 50px;
+    }
 
+    .legel {
+        color: white;
+        padding-top: 50px;
+    }
 
+    .install {
+        color: white;
+        padding-top: 50px;
+    }
 
+    .icon3 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(236, 217, 217);
+        border-radius: 10px;
+    }
+
+    #play2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204);
+    }
+
+    .gopla {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+    }
+
+    .getiton1 {
+        font-size: 0.6rem;
+    }
+
+    .googleplay1 {
+        font-size: 1.2rem;
+    }
+
+    .icon4 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(223, 171, 171);
+        border-radius: 10px;
+    }
+
+    #apple2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 2px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204)
+    }
+
+    .down {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+        color: white;
+    }
+
+    .down3 {
+        font-size: 0.6rem;
+    }
+
+    .appstore1 {
+        font-size: 1.2rem;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        color: beige;
+        font-size: 1.2rem;
+    }
+
+    .footerhr {
+        width: 100%;
+        color: white;
+    }
+
+    .allright {
+        color: rgb(248, 236, 236);
+    }
+
+    .twitter {
+        color: rgb(240, 228, 228);
+        font-size: 2rem;
+
+    }
 
 
 }
@@ -994,7 +1433,7 @@ h3 {
         border-bottom-left-radius: 10px;
     }
 
-    .c_logo {
+    .ul2 {
         list-style-type: none;
         display: flex;
         justify-content: center;
@@ -1005,7 +1444,7 @@ h3 {
         margin: 30px 0px 100px 0px;
     }
 
-    .c_logo {
+    .ul2 a {
         text-decoration: none;
         text-align: center;
         font-size: 1.8rem;
@@ -1014,15 +1453,13 @@ h3 {
         color: rgb(176, 115, 233);
     }
 
-
-
     .timeline_team {
         height: 100%;
         width: 100%;
         background-color: rgb(212, 237, 238);
         display: flex;
         flex-direction: column;
-        /* justify-content: space-evenly; */
+
         margin-bottom: 50px;
     }
 
@@ -1035,7 +1472,7 @@ h3 {
     .texes {
         display: flex;
         flex-direction: column;
-        /* align-items: flex-start; */
+
         text-align: center;
         align-content: center;
         background-color: rgb(211, 236, 236);
@@ -1096,7 +1533,250 @@ h3 {
         align-items: center;
     }
 
+    .customers {
+        height: 150px;
+        width: 45%;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 28%;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
 
+    .amazing2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .footer1 {
+        height: 400px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        background-color: blueviolet;
+        border-radius: 30px;
+        font-size: 1.5rem;
+    }
+
+    .employees {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .icons {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+
+
+    }
+
+    .icon_go {
+        height: 90px;
+        width: 40%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-google-play {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+    }
+
+    .goplay {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+
+
+    }
+
+    .getiton {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .googleplay {
+        font-size: 1.5rem;
+    }
+
+    .icon_app {
+        height: 90px;
+        width: 40%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-apple {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+
+    }
+
+    .downapp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+        padding: 5px;
+    }
+
+    .down1 {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .appstore {
+        font-size: 1.5rem;
+    }
+
+    .footer2 {
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(34, 26, 26);
+    }
+
+    .footer_main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .company {
+        color: white;
+        padding-top: 50px;
+    }
+
+    .suport {
+        color: white;
+        padding-top: 50px;
+    }
+
+    .legel {
+        color: white;
+        padding-top: 50px;
+    }
+
+    .install {
+        color: white;
+        padding-top: 50px;
+    }
+
+    .icon3 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(236, 217, 217);
+        border-radius: 10px;
+    }
+
+    #play2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204);
+    }
+
+    .gopla {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+    }
+
+    .getiton1 {
+        font-size: 0.6rem;
+    }
+
+    .googleplay1 {
+        font-size: 1.2rem;
+    }
+
+    .icon4 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(223, 171, 171);
+        border-radius: 10px;
+    }
+
+    #apple2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 2px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204)
+    }
+
+    .down {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+        color: white;
+    }
+
+    .down3 {
+        font-size: 0.6rem;
+    }
+
+    .appstore1 {
+        font-size: 1.2rem;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        color: beige;
+        font-size: 1.2rem;
+    }
+
+    .footerhr {
+        width: 100%;
+        color: white;
+    }
+
+    .allright {
+        color: rgb(248, 236, 236);
+    }
+
+    .twitter {
+        color: rgb(240, 228, 228);
+        font-size: 2rem;
+
+    }
 }
 
 
@@ -1175,9 +1855,266 @@ h3 {
 
     }
 
+    .customers {
+        height: 150px;
+        width: 45%;
+        text-align: center;
+        font-size: 1rem;
+        margin-left: 28%;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+
+    .amazing2 {
+        width: 100%;
+        text-align: center;
+
+    }
 
 
+    .footer1 {
+        height: 400px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        background-color: blueviolet;
+        border-radius: 30px;
+        font-size: 1.5rem;
+    }
 
+    .employees {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .icons {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+
+
+    }
+
+    .icon_go {
+        height: 90px;
+        width: 50%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-google-play {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+    }
+
+    .goplay {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+
+
+    }
+
+    .getiton {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .googleplay {
+        font-size: 1.5rem;
+    }
+
+    .icon_app {
+        height: 90px;
+        width: 50%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-apple {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+
+    }
+
+    .downapp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+        padding: 5px;
+    }
+
+    .down1 {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .appstore {
+        font-size: 1.5rem;
+    }
+
+    .footer2 {
+        height: 550px;
+        width: 100%;
+        display: flex;
+
+        background-color: rgb(34, 26, 26);
+    }
+
+    .footer_main {
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+
+        align-items: center;
+    }
+
+    .company {
+        color: white;
+        padding-top: 50px;
+
+    }
+
+    .com2 {
+
+        font-size: 1rem;
+    }
+
+    .com1 {
+        font-size: 1.2rem;
+    }
+
+    .suport {
+        color: white;
+
+    }
+
+    .legel {
+        color: white;
+
+    }
+
+    .install {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+
+    }
+
+    .icon3 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(236, 217, 217);
+        border-radius: 10px;
+    }
+
+    #play2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204);
+    }
+
+    .gopla {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+    }
+
+    .getiton1 {
+        font-size: 0.6rem;
+    }
+
+    .googleplay1 {
+        font-size: 1.2rem;
+    }
+
+    .icon4 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(223, 171, 171);
+        border-radius: 10px;
+    }
+
+    #apple2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 2px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204)
+    }
+
+    .down {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+        color: white;
+    }
+
+    .down3 {
+        font-size: 0.6rem;
+    }
+
+    .appstore1 {
+        font-size: 1.2rem;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        color: beige;
+        font-size: 1.2rem;
+    }
+
+    .footerhr {
+        width: 100%;
+        color: white;
+    }
+
+    .allright {
+        color: rgb(248, 236, 236);
+    }
+
+    .twitter {
+        color: rgb(240, 228, 228);
+        font-size: 2rem;
+
+    }
 
 
 }
@@ -1251,9 +2188,295 @@ h3 {
 
     }
 
+    .customers {
+        height: 150px;
+        width: 45%;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-left: 28%;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+
+    .amazing2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .ul2 {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        text-decoration: none;
+        column-gap: 3%;
+        margin: 30px 0px 100px 0px;
+        margin-left: 70px;
+    }
+
+    .ul2 a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.5rem;
+        display: flex;
+        overflow: hidden;
+        color: rgb(176, 115, 233);
+    }
+
+    .slack {
+        opacity: 0;
+    }
+
+    .text4 {
+        font-size: 1.5rem;
+    }
+
+    .footer1 {
+        height: 400px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        background-color: blueviolet;
+        border-radius: 30px;
+        font-size: 1.5rem;
+    }
+
+    .employees {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .icons {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
 
 
+    }
 
+    .icon_go {
+        height: 60px;
+        width: 60%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-google-play {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+    }
+
+    .goplay {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+
+
+    }
+
+    .getiton {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .googleplay {
+        font-size: 1.3rem;
+    }
+
+    .icon_app {
+        height: 60px;
+        width: 60%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .fa-apple {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: red;
+
+    }
+
+    .downapp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: end;
+        padding: 5px;
+    }
+
+    .down1 {
+        font-size: 1rem;
+        color: rgb(116, 103, 88);
+    }
+
+    .appstore {
+        font-size: 1.5rem;
+    }
+
+    .footer2 {
+        height: 950px;
+        width: 100%;
+        display: flex;
+
+        background-color: rgb(34, 26, 26);
+    }
+
+    .footer_main {
+        height: 900px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company {
+        color: white;
+        padding-top: 50px;
+
+    }
+
+    .com2 {
+
+        font-size: 0.8rem;
+    }
+
+    .com1 {
+        font-size: 1.8rem;
+    }
+
+    .suport {
+        color: white;
+
+    }
+
+    .legel {
+        color: white;
+
+    }
+
+    .install {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+
+    }
+
+    .icon3 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(236, 217, 217);
+        border-radius: 10px;
+    }
+
+    #play2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204);
+    }
+
+    .gopla {
+        /* margin-top: -25%;
+            margin-left: 30%; */
+        padding: 10px;
+    }
+
+    .getiton1 {
+        font-size: 0.6rem;
+    }
+
+    .googleplay1 {
+        font-size: 1.2rem;
+    }
+
+    .icon4 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(223, 171, 171);
+        border-radius: 10px;
+    }
+
+    #apple2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 2px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204)
+    }
+
+    .down {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+        color: white;
+    }
+
+    .down3 {
+        font-size: 0.6rem;
+    }
+
+    .appstore1 {
+        font-size: 1.2rem;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        color: beige;
+        font-size: 1.2rem;
+    }
+
+    .footerhr {
+        width: 100%;
+        color: white;
+    }
+
+    .allright {
+        color: rgb(248, 236, 236);
+    }
+
+    .twitter {
+        color: rgb(240, 228, 228);
+        font-size: 1rem;
+        opacity: 0;
+
+    }
 
 
 }
@@ -1275,7 +2498,7 @@ h3 {
         align-items: center;
         align-content: center;
         margin-bottom: 20%;
-        /* margin-left: 600px; */
+
         margin-right: -200px;
     }
 
@@ -1310,7 +2533,7 @@ h3 {
 
     }
 
-    .c_logo {
+    .ul2 a {
         text-decoration: none;
         text-align: center;
         font-size: 1.2rem;
@@ -1335,6 +2558,162 @@ h3 {
         border-radius: 10px;
         color: white;
         background-color: blueviolet;
+
+    }
+
+    .icon_go {
+        height: 60px;
+        width: 70%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .icon_app {
+        height: 60px;
+        width: 70%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .footer2 {
+        height: 950px;
+        width: 100%;
+        display: flex;
+
+        background-color: rgb(34, 26, 26);
+    }
+
+    .footer_main {
+        height: 900px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company {
+        color: white;
+        padding-top: 50px;
+
+    }
+
+    .com2 {
+
+        font-size: 0.8rem;
+    }
+
+    .com1 {
+        font-size: 1.8rem;
+    }
+
+    .suport {
+        color: white;
+
+    }
+
+    .legel {
+        color: white;
+
+    }
+
+    .install {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+
+    }
+
+    .icon3 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(236, 217, 217);
+        border-radius: 10px;
+    }
+
+    #play2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204);
+    }
+
+    .gopla {
+
+        padding: 10px;
+    }
+
+    .getiton1 {
+        font-size: 0.6rem;
+    }
+
+    .googleplay1 {
+        font-size: 1.2rem;
+    }
+
+    .icon4 {
+        height: 70px;
+        width: 200px;
+        border: 1px solid rgb(223, 171, 171);
+        border-radius: 10px;
+    }
+
+    #apple2 {
+        height: 50px;
+        width: 50px;
+        font-size: 3.5rem;
+        padding-top: 2px;
+        padding-left: 10px;
+        color: rgb(226, 204, 204)
+    }
+
+    .down {
+        margin-top: -25%;
+        margin-left: 30%;
+        padding: 10px;
+        color: white;
+    }
+
+    .down3 {
+        font-size: 0.6rem;
+    }
+
+    .appstore1 {
+        font-size: 1.2rem;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        color: beige;
+        font-size: 1.2rem;
+    }
+
+    .footerhr {
+        width: 100%;
+        color: white;
+    }
+
+    .allright {
+        color: rgb(248, 236, 236);
+    }
+
+    .twitter {
+        color: rgb(240, 228, 228);
+        font-size: 0.5rem;
+        opacity: 0;
 
     }
 
